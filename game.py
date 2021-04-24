@@ -45,11 +45,11 @@ class Game:
         return self.enemy_warrior.health <= 0
 
     def is_enemy_health_low(self):
-        """Сhecks if health is below 35%"""
+        """Checks if health is below 35%"""
         return self.enemy_warrior.health <= self.max_health * 0.35
 
     def display_fight_status(self):
         print(
-            f"-----{self.player_warrior.name}: {self.player_warrior.health}, "
-            f"{self.enemy_warrior.name}: {self.enemy_warrior.health}-----")
+            f"----- {self.player_warrior.name}: {self.player_warrior.health}, "
+            f"{self.enemy_warrior.name}: {self.enemy_warrior.health} -----", "\n")
 
