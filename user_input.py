@@ -2,8 +2,8 @@ import random
 
 
 class UserInput:
-    player_names_list = ['Геральт', 'Иллидан', 'Джонни Кейдж', 'Рейнор', 'Эцио']
-    enemy_names_list = ['Эредин', 'Шао Кан', 'Артас', 'Джокер', 'Лео Бонарт']
+    player_names_list = ['Геральт', 'Иллидан', 'Джонни Кейдж', 'Рейнор', 'Эцио', "Тралл", "Гордон Фримен"]
+    enemy_names_list = ['Эредин', 'Шао Кан', 'Артас', 'Джокер', 'Лео Бонарт', "Хедкраб", "Тайкус"]
 
     @staticmethod
     def get_player_warrior_name():

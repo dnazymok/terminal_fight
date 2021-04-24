@@ -12,18 +12,18 @@ class Warrior:
         """Attack with a small range of damage"""
         enemy.health -= random.randrange(18, 26)
         print(
-            f"{self.name} нанес лёгкий удар. {self.name}: {self.health}, {enemy.name}: {enemy.health} единиц здоровья")
+            f"{self.name} нанес лёгкий удар.")
 
     def heavy_attack(self, enemy):
         """Attack with a big range of damage"""
         enemy.health -= random.randrange(10, 36)
         print(
-            f"{self.name} нанес тяжёлый удар. {self.name}: {self.health}, {enemy.name}: {enemy.health} единиц здоровья")
+            f"{self.name} нанес тяжёлый удар.")
 
     def heal(self):
         """Increases warrior health"""
         self.health += random.randrange(18, 26)
-        print(f"{self.name} исцелился. {self.name}: {self.health}")
+        print(f"{self.name} исцелился.")
 
     def do_random_action(self, enemy):
         """Randomly chooses an action from Warrior action list"""
