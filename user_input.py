@@ -21,4 +21,10 @@ class UserInput:
     @staticmethod
     def get_warriors_max_health():
         """Return warriors health"""
-        return int(input("Сколько у бойцов будет здоровья?"))
+        while True:
+            try:
+                health = int(input("Сколько у бойцов будет здоровья? (Рекомендуемое значение 50-100)"))
+                return health
+            except ValueError:
+                continue
+
